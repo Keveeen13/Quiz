@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(223, 217, 217);
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 3%;
+    font-size: 80px;
+    font-family: minhaFonte;
+}
+
+img{
+    height: 200px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    margin-top: 30px;
+}
+
+button{
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    font-family: minhaFonte;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+
+.cerebro{
+    text-align: center;
+    height: 60px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: minhaFonte;
+    src: url(/DonteDale.ttf);
+}
